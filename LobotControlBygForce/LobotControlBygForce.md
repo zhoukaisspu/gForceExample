@@ -21,7 +21,7 @@
 * [如何导入gForceSDKArduino](https://github.com/oymotion/gForceSDKArduino)
 
 ### gForceJoint与ArduinoMEGA的通讯测试
-<div align=center>![gForceJointPC](gForceJointPC.png)</div>
+![gForceJointPC](gForceJointPC.png)
 1. 如上图所示，连接gForceJoint与ArduinoMEGA
 2. 使用ArduinoIDE打开`gForceJointTest`工程，并更新ArduinoMEGA的固件.**(选择`“项目”->“上传”`更新固件)**
 3. 打开ArduinoIDE里的`串口监视器`.**(选择`“工具”->“串口监视器”`打开串口监视器)**
@@ -38,7 +38,7 @@
 
 
 ### Lobot机械手测试
-<div align=center>![LobotArduinoMEAG](LobotTest.png)</div>
+![LobotArduinoMEAG](LobotTest.png)
 1. 如上图所示连接LOBOT与ArduinoMEAG
 2. 将ArduinoMEAG与PC通过USB线连接，打开`LobotTest`工程，并更新ArduinoMEAG的固件 **(选择`“项目”->“上传”`更新固件)**
 3. 观察Lobot机械手的手势是否正确
