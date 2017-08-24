@@ -23,7 +23,9 @@
 ### gForceJoint与ArduinoMEGA的通讯测试
 ![gForceJointPC](gForceJointPC.png)
 1. 如上图所示，连接gForceJoint与ArduinoMEGA
-2. 使用ArduinoIDE打开`gForceJointTest`工程，并更新ArduinoMEGA的固件.**(选择`“项目”->“上传”`更新固件)**
+2. 使用ArduinoIDE打开
+[gForceJointTest](https://github.com/zhoukaisspu/gForceExample/blob/master/LobotControlBygForce/project/gForceJointTest/gForceJointTest.ino)
+工程，并更新ArduinoMEGA的固件.**(选择`“项目”->“上传”`更新固件)**
 3. 打开ArduinoIDE里的`串口监视器`.**(选择`“工具”->“串口监视器”`打开串口监视器)**
 4. 将gForce连接到gForceJoint上，然后做出相应的手势，通过`串口监视器`内打印的数据判断是否通讯正常   
 
@@ -40,7 +42,9 @@
 ### Lobot机械手测试
 ![LobotArduinoMEAG](LobotTest.png)
 1. 如上图所示连接LOBOT与ArduinoMEAG
-2. 将ArduinoMEAG与PC通过USB线连接，打开`LobotTest`工程，并更新ArduinoMEAG的固件 **(选择`“项目”->“上传”`更新固件)**
+2. 将ArduinoMEAG与PC通过USB线连接，打开
+[LobotTest](https://github.com/zhoukaisspu/gForceExample/blob/master/LobotControlBygForce/project/LobotTest/LobotTest.ino)
+工程，并更新ArduinoMEAG的固件 **(选择`“项目”->“上传”`更新固件)**
 3. 观察Lobot机械手的手势是否正确
 
 如果Lobot机械手的手势不正常，则需要找到并解决该问题，然后在进行下一章节。
@@ -50,7 +54,9 @@
 
 ![LobotArdusinoMEAG](LobotControl.png)
 1. 如上图所示，连接相应的开发板
-2. 将ArduinoMEAG与PC连接，打开`LobotControlBygForce`工程，并更新ArduinoMEAG固件 **(选择`“项目”->“上传”`更新固件)**
+2. 将ArduinoMEAG与PC连接，打开
+[LobotControlBygForce](https://github.com/zhoukaisspu/gForceExample/blob/master/LobotControlBygForce/project/LobotControlBygForce/LobotControlBygForce.ino)
+工程，并更新ArduinoMEAG固件 **(选择`“项目”->“上传”`更新固件)**
 3. 将gForce与gForceJoint进行连接，试玩机械手的控制。
 
 ## gForce标准手势指导
