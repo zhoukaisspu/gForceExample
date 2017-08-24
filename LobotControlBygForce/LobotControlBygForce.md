@@ -59,9 +59,10 @@
 工程，并更新ArduinoMEAG固件 **(选择`“项目”->“上传”`更新固件)**
 3. 将gForce与gForceJoint进行连接，试玩机械手的控制。
 
-## gForce标准手势指导
-该小节用于介绍如何做好gForce定义的手势，参考标准手势能够显著提高手势识别率。
+## gForce相关视频
+该小节用于介绍如何做好gForce定义的手势及相关gForce应用视频，参考标准手势能够显著提高手势识别率。
 * [如何做好gForce定义手势](http://video.tudou.com/v/XMjQ2NjgxNzE1Mg==.html)
+* [OYMotion肌电智能义肢](http://video.tudou.com/v/XMjc5NjQzNTUzNg)
 
 ## 问题反馈
 在使用过程中有任何问题，欢迎邮件反馈。
