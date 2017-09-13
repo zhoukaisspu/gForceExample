@@ -27,7 +27,8 @@
 [gForceJointTest](https://github.com/zhoukaisspu/gForceExample/blob/master/LobotControlBygForce/project/gForceJointTest/gForceJointTest.ino)
 工程，并更新ArduinoMEGA的固件.**(选择`“项目”->“上传”`更新固件)**
 3. 打开ArduinoIDE里的`串口监视器`.**(选择`“工具”->“串口监视器”`打开串口监视器)**
-4. 将gForce连接到gForceJoint上，然后做出相应的手势，通过`串口监视器`内打印的数据判断是否通讯正常   
+4. 设置串口监视器波特率为115200bps
+5. 将gForce连接到gForceJoint上，然后做出相应的手势，通过`串口监视器`内打印的数据判断是否通讯正常   
 
 
 * [如何使gForce与gForceJoint建立连接](https://oymotion.github.io/doc/gForce100EmbeddedSuiteUserGuide/#connecting-gforce-with-gforcejoint)
