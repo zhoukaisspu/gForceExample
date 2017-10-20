@@ -137,7 +137,7 @@ void perform_gesture(GestureType gestureIdx)
     last_gesIdx = idx;
   }
 
-  Serial.print("Gesture "); Serial.println(gestureIdx);//串口显示手势的坐标和手势的序号
+  Serial.print("Gesture "); Serial.println(gestureIdx);
   
   
   
