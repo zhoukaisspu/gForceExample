@@ -44,13 +44,15 @@
 #define gforceSerial Serial2
 
 
-int gesture[7][6] = {{2500,2500,2300,800,1000,1500},   // fist
-                  {1200,1200,1100,1900,1900,1500},    // spread
-                  {1200,1200,1100,1900,1900,1900},    // wave in
-                  {1200,1200,1100,1900,1900,1100},    // wave out
-                  {2000,1900,1800,1300,1500,1500},    // pinch
-                  {1200,1200,2200,800,1100,1500},      // shoot
-                  {1400,1400,1400,1500,1650,1500}};    // release
+int gesture[7][6] = {
+  {900, 900, 1000, 2000, 2000, 1500},// fist
+   {2500, 2500, 2300, 800,  1000, 1500}, // spread
+  {2500, 2500, 2300, 800,  1000, 1900}, // wave in
+  {2500, 2500, 2300, 800,  1000, 1100}, // wave out
+  {800, 1000, 1200, 1700, 1600, 1500}, // pinch
+  {2500, 2500, 1000, 2000, 2000, 1500}, // shoot
+  {2000, 1750, 1600, 1500,  1500, 1500}  // release
+};  
 
 enum GestureType
 {
@@ -132,7 +134,7 @@ void perform_gesture(GestureType gestureIdx)
       Serial.print(gesture[idx][i]);Serial.print(",");
     }
     myse.moveServos(servos,6,moveTime);
-    last_gesIdx = idx;
+    last_gesIdx = (GestureType)idx;
   }
 
   Serial.print("Gesture ");Serial.println(gestureIdx);
